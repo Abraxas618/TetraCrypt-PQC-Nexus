@@ -37,3 +37,39 @@ This work serves as a **blueprint from the future**, brought into present form a
 ## Contact
 
 This project was manifested by **Michael Tass MacDonald** as part of the TetraCryptPQC Nexus initiative.
+# TetraCrypt PQC Nexus v0.1.0 — Exploratory Research Edition
+
+**Author**: Michael Tass MacDonald (aka Abraxas618)  
+**License**: Papers - CC-BY-4.0 | Code - Apache 2.0  
+**Released**: April 12, 2025  
+**GitHub**: https://github.com/Abraxas618/TetraCrypt-PQC-Nexus
+
+> "Cos(I) = 1.618 — the golden key to mapping encryption across dimensions."
+
+---
+
+## 🔷 What is TetraCrypt?
+TetraCrypt is a next-gen post-quantum cryptographic system, structured around advanced Platonic solid geometry and hyperdimensional lattice mappings.
+
+🧩 Core Components:
+- 🔐 **TKE** – Tetrahedral Key Exchange  
+- 🔮 **QIDL** – Quantum Isoca-Dodecahedral Layering  
+- 🧠 **RTH** – Recursive Tesseract Hashing  
+- ⬛ **HBB** – 4D Hypercube Blockchain
+
+---
+
+## 📘 Papers Included:
+- Omni-Causal Hyperlattice Cryptography.pdf
+- TetraSwarm Protocol Architecture.pdf
+
+## 🚀 Future Goals:
+- Fully implement geometric encryption in NumPy
+- Run distributed consensus on 4D ledger space
+- Integrate EEG/DNA biometric factors into identity-based quantum mesh
+
+## 🙏 Acknowledgments:
+Inspired by:  
+- Kosol Ouch & Unimetrix1  
+- Platonic Geometry  
+- Multidimensional Consciousness  
