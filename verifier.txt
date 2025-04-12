@@ -1,0 +1,23 @@
+# TetraCrypt PQC Nexus - Archive Verifier
+
+Archived URL:
+https://web.archive.org/web/20250412231421/https://github.com/Abraxas618/TetraCrypt-PQC-Nexus/tree/main
+
+SHA-256 Hash:
+8d09b296b2d49bbe48a463fccd74b6a181a92c629f2e2fb9dde4dac48d4af293
+
+Timestamp:
+2025-04-12 23:14:21 UTC
+
+Author:
+Michael Tass MacDonald (Abraxas618)
+
+Purpose:
+This file proves that the repository located at the above URL was publicly archived
+and cryptographically verified on the Wayback Machine as of the timestamp above.
+
+To independently verify:
+1. Visit the archive URL.
+2. Hash the URL using SHA-256.
+3. Compare your result to the hash above.
+
