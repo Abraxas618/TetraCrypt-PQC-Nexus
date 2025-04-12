@@ -75,3 +75,5 @@ Inspired by:
 - Multidimensional Consciousness  
 # Verify the integrity of verifier.txt
 openssl dgst -sha256 -verify public_key.pem -signature verifier.txt.sig verifier.txt
+https://web.archive.org/web/20250412231918/https://github.com/Abraxas618/TetraCrypt-PQC-Nexus/blob/main/Omni-Causal-Hyperlattice-Cryptography.tex
+https://web.archive.org/web/20250412232131/https://github.com/Abraxas618/TetraCrypt-PQC-Nexus/blob/main/tetraswarm.tex
