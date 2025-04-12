@@ -21,3 +21,10 @@ To independently verify:
 2. Hash the URL using SHA-256.
 3. Compare your result to the hash above.
 
+# 🔐 TetraCrypt Verifier.txt
+Generated on 2025-04-12
+
+SHA-256 Hashes:
+LICENSE-CC-BY-4.0.txt: 0bb287745bfc301c564d6ccc0e0af1b9036631781559a8c238b7dcfad3263248
+LICENSE-APACHE-2.0.txt: 0c273b0e3647e82291d600abdf1248998d58c3e4227de9d76a3ede9dcac39eb9
+GPG_Verification_Readme.txt: fabd30ec108c18c24fd2f898449b1fa3b3d1b5457798313708451a9b3b03f35c
