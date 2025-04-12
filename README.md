@@ -73,3 +73,5 @@ Inspired by:
 - Kosol Ouch & Unimetrix1  
 - Platonic Geometry  
 - Multidimensional Consciousness  
+# Verify the integrity of verifier.txt
+openssl dgst -sha256 -verify public_key.pem -signature verifier.txt.sig verifier.txt
