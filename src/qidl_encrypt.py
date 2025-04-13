@@ -27,19 +27,23 @@ def generate_entropy_salt(length: int = 16) -> str:
 
 def qidl_encrypt(message: str, key: np.ndarray, salt: str = None):
     """
-    Quantum simulation using golden-ratio projection with entropy salt.
-    Encrypts characters onto a 2D isoca-dodecahedron ring.
+    Golden-ratio projection with true entropy salt integration.
+    Salt now influences the transformation directly.
     """
     if salt is None:
         salt = generate_entropy_salt()
-    message += salt
+
+    # Salt becomes a mathematical component in the transform
+    salt_val = sum([ord(s) for s in salt]) % 89  # Safe scalar mix (mod 89 = prime)
 
     encoded = []
-    for i, char in enumerate(message):
-        char_val = ord(char)
+    full_message = message + salt
+    for i, char in enumerate(full_message):
+        char_val = ord(char) + salt_val  # Apply salt to each character's numeric weight
         point = key[i % len(key)]
         transformed = (char_val * point[0], char_val * point[1])
         encoded.append(transformed)
+
     return encoded, salt
 
 def qidl_decrypt(encoded_message, key: np.ndarray, salt: str = ''):
