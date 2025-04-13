@@ -77,3 +77,51 @@ Inspired by:
 openssl dgst -sha256 -verify public_key.pem -signature verifier.txt.sig verifier.txt
 https://web.archive.org/web/20250412231918/https://github.com/Abraxas618/TetraCrypt-PQC-Nexus/blob/main/Omni-Causal-Hyperlattice-Cryptography.tex
 https://web.archive.org/web/20250412232131/https://github.com/Abraxas618/TetraCrypt-PQC-Nexus/blob/main/tetraswarm.tex
+
+🧪 Podman Container Deployment
+You can run the entire TetraCrypt PQC Nexus system inside an isolated Podman container for secure and reproducible testing.
+
+🔧 Requirements
+Podman installed (v4.0+)
+
+GNU make available
+
+🚀 Quick Start (Terminal)
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/Abraxas618/TetraCrypt-PQC-Nexus.git
+cd TetraCrypt-PQC-Nexus
+
+# Build the container
+make build
+
+# Run all core modules: TKE, QIDL, RTH, and HBB
+make run
+
+# (Optional) Open a shell inside the container
+make shell
+🗂️ Folder Overview
+bash
+Copy
+Edit
+.
+├── Dockerfile          # Container blueprint
+├── Makefile            # Easy build/run commands
+├── requirements.txt    # Python dependencies
+└── examples/run_all.py # Demo script for full system test
+🧠 What It Does
+Builds a lightweight container with Python and all crypto modules
+
+Runs all TetraCrypt modules in sequence:
+
+🔐 TetrahedralKeyExchange
+
+🔮 QIDLEncoder
+
+🧠 RecursiveTesseractHash
+
+⬛ HypercubeBlockchain
+
+🛡️ All simulations are air-gapped from your host and run with deterministic reproducibility for high-integrity research.
