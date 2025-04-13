@@ -102,6 +102,8 @@ make run
 
 # (Optional) Open a shell inside the container
 make shell
+
+
 🗂️ Folder Overview
 bash
 Copy
