@@ -1,10 +1,9 @@
 from pathlib import Path
 
-# Path to create the updated run_all.py script
-run_all_script = Path("/mnt/data/run_all.py")
+# Path to the patched run_all.py
+patched_run_all = Path("/mnt/data/run_all_patched.py")
 
-# Full script content with improvements
-script_code = '''\
+patched_code = '''\
 """
 Run All TetraCrypt Modules: Demonstration CLI
 Author: Michael Tass MacDonald
@@ -13,16 +12,18 @@ Version: v0.1.0
 
 import os
 import sys
-from pathlib import Path
 
-# Ensure 'src' directory is in the Python path for imports
-sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
+# Ensure src/ is discoverable
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
+# --- External Simulations ---
 def run_external_simulations():
     print("🚀 Running Quantum + Swarm Simulations")
-    os.system("python3 sim/simulate_quantum_attack.py")
-    os.system("python3 sim/simulate_swarm.py")
+    sim_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "sim"))
+    os.system(f"python3 {os.path.join(sim_dir, 'simulate_quantum_attack.py')}")
+    os.system(f"python3 {os.path.join(sim_dir, 'simulate_swarm.py')}")
 
+# --- Internal Core Demos ---
 def run_internal_demos():
     try:
         from tke import TetrahedralKeyExchange
@@ -65,8 +66,5 @@ if __name__ == "__main__":
     run_internal_demos()
 '''
 
-# Write the script to file
-run_all_script.write_text(script_code)
-
-# Return the path to confirm
-run_all_script
+patched_run_all.write_text(patched_code)
+patched_run_all
