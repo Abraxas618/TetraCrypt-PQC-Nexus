@@ -1,3 +1,13 @@
+# examples/run_all.py
+
+import os
+
+print("🚀 Running Quantum Attack Simulation")
+os.system("python3 sim/simulate_quantum_attack.py")
+
+print("\n🌐 Running Swarm Simulation")
+os.system("python3 sim/simulate_swarm.py")
+
 from pathlib import Path
 
 # Create the script for examples/run_all.py
