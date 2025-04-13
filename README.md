@@ -137,3 +137,29 @@ This repository is part of the Codex encryption system. A cryptographic proof of
 - [OpenTimestamps Proof File](./Codex_Blockchain_Archive.zip.ots)
 
 This file provides tamper-evident authorship verification for the Codex source code and submission materials.
+## 🔗 Distributed Integrity & Blockchain Authorship
+
+The **Codex Encryption System** has been cryptographically timestamped and mirrored using decentralized technologies to ensure its **immutability, authorship proof**, and long-term survivability beyond centralized infrastructure.
+
+### 📦 IPFS Archive (Permanent Public Mirror)
+
+| File | Description | IPFS Link |
+|------|-------------|-----------|
+| `Codex_Blockchain_Archive.zip` | Complete Codex source code, simulation results, and DRDC submission bundle | [https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na](https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na) |
+| `Codex_Blockchain_Archive.zip.ots` | Authorship proof anchored on the Bitcoin blockchain via OpenTimestamps | [https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq](https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq) |
+
+> 🛰 These files are hosted via [IPFS](https://ipfs.tech), a decentralized content-addressed file system ensuring long-term accessibility and censorship resistance.
+
+---
+
+### ⛓️ Bitcoin Timestamp Verification
+
+This `.ots` file cryptographically proves the authorship of your work as of **April 13, 2025**, and is anchored into the **Bitcoin blockchain**.
+
+#### 🔧 Verify with OpenTimestamps:
+```bash
+# Install client
+pip install opentimestamps-client
+
+# Verify the proof
+ots verify Codex_Blockchain_Archive.zip.ots
