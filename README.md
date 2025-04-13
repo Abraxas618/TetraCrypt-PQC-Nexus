@@ -130,3 +130,10 @@ Runs all TetraCrypt modules in sequence:
 🛡️ All simulations are air-gapped from your host and run with deterministic reproducibility for high-integrity research.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15206930.svg)](https://doi.org/10.5281/zenodo.15206930)
 
+### ⏱ Blockchain Timestamp
+
+This repository is part of the Codex encryption system. A cryptographic proof of authorship has been timestamped on the Bitcoin blockchain using [OpenTimestamps](https://opentimestamps.org).
+
+- [OpenTimestamps Proof File](./Codex_Blockchain_Archive.zip.ots)
+
+This file provides tamper-evident authorship verification for the Codex source code and submission materials.
