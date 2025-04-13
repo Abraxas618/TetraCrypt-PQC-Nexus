@@ -1,9 +1,3 @@
-from pathlib import Path
-
-# Create the updated run_all.py with improvements
-run_all_script = Path("/mnt/data/run_all.py")
-
-script_code = '''\
 """
 Run All TetraCrypt Modules: Demonstration CLI
 Author: Michael Tass MacDonald
@@ -27,14 +21,12 @@ def run_internal_demos():
         print(f"[!] Import failed: {e}")
         return
 
-    print("\\n🧪 Running Core Module Demos")
+    print("\n🧪 Running Core Module Demos")
 
-    # --- Tetrahedral Key Exchange Demo ---
     tke = TetrahedralKeyExchange()
     private_key, public_key = tke.generate_keypair()
     print("TKE Public Key:", public_key)
 
-    # --- QIDL Encryption Demo ---
     message = "Hello, Hyperdimensional World!"
     qidl = QIDLEncoder()
     ciphertext, shared_secret = qidl.encrypt(public_key, message)
@@ -43,13 +35,11 @@ def run_internal_demos():
     decrypted = qidl.decrypt(private_key, ciphertext, shared_secret)
     print("QIDL Decrypted:", decrypted)
 
-    # --- Recursive Tesseract Hashing Demo ---
     rth = RecursiveTesseractHash()
     bio_sample = b"EEG_SAMPLE|DNA_SAMPLE"
     hashed = rth.hash(bio_sample)
     print("RTH Hash:", hashed.hex())
 
-    # --- Hypercube Blockchain Demo ---
     hbb = HypercubeBlockchain()
     hbb.add_block({"payload": hashed.hex()})
     print("HBB Chain Length:", len(hbb.chain))
@@ -57,7 +47,3 @@ def run_internal_demos():
 if __name__ == "__main__":
     run_external_simulations()
     run_internal_demos()
-'''
-
-run_all_script.write_text(script_code)
-run_all_script
