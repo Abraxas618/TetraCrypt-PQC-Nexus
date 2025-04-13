@@ -105,9 +105,6 @@ make shell
 
 
 🗂️ Folder Overview
-bash
-Copy
-Edit
 .
 ├── Dockerfile          # Container blueprint
 ├── Makefile            # Easy build/run commands
