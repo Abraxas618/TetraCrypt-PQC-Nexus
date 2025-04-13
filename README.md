@@ -105,11 +105,15 @@ make shell
 
 
 🗂️ Folder Overview
-.
+
 ├── Dockerfile          # Container blueprint
+
 ├── Makefile            # Easy build/run commands
+
 ├── requirements.txt    # Python dependencies
+
 └── examples/run_all.py # Demo script for full system test
+
 🧠 What It Does
 Builds a lightweight container with Python and all crypto modules
 
