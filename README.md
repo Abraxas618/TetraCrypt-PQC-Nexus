@@ -146,10 +146,10 @@ The **Codex Encryption System** has been cryptographically timestamped and mirro
 
 | File | Description | IPFS Link |
 |------|-------------|-----------|
-| `Codex_Blockchain_Archive.zip` | Complete Codex source code, simulation results, and DRDC submission bundle | [https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na](https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na) |
-| `Codex_Blockchain_Archive.zip.ots` | Authorship proof anchored on the Bitcoin blockchain via OpenTimestamps | [https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq](https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq) |
+| `Codex_Combined_Blockchain_Archive.zip` | ✅ Combined Codex source code, research identity, PDF, and simulation data | [https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na](https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na) |
+| `Codex_Combined_Blockchain_Archive.zip.ots` | ⛓ Authorship proof timestamped on Bitcoin via OpenTimestamps | [https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq](https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq) |
 
-> 🛰 These files are hosted via [IPFS](https://ipfs.tech), a decentralized content-addressed file system ensuring long-term accessibility and censorship resistance.
+> 🛰 These files are hosted on [IPFS](https://ipfs.tech), a decentralized content-addressed storage layer ensuring long-term access, cryptographic authenticity, and global resilience.
 
 ---
 
