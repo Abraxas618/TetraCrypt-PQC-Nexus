@@ -128,3 +128,5 @@ Runs all TetraCrypt modules in sequence:
 ⬛ HypercubeBlockchain
 
 🛡️ All simulations are air-gapped from your host and run with deterministic reproducibility for high-integrity research.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15206930.svg)](https://doi.org/10.5281/zenodo.15206930)
+
